@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _greeting_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./greeting.js */ \"./src/greeting.js\");\n/* harmony import */ var _images_image_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/image.png */ \"./src/images/image.png\");\n\n\n\n\nconst imEl = document.createElement(\"img\");\nimEl.src = _images_image_png__WEBPACK_IMPORTED_MODULE_2__;\n\ndocument.body.appendChild(_images_image_png__WEBPACK_IMPORTED_MODULE_2__);\nconsole.log(_greeting_js__WEBPACK_IMPORTED_MODULE_1__.greeting);\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _greeting_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./greeting.js */ \"./src/greeting.js\");\n/* harmony import */ var _images_image_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/image.png */ \"./src/images/image.png\");\n\n\n\n\nlet imEl = document.createElement(\"img\");\nimEl.src = _images_image_png__WEBPACK_IMPORTED_MODULE_2__;\n\ndocument.body.appendChild(imEl);\nconsole.log(_greeting_js__WEBPACK_IMPORTED_MODULE_1__.greeting);\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
