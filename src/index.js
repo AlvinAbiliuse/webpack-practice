@@ -7,4 +7,3 @@ imEl.src = image;
 
 document.body.appendChild(imEl);
 console.log(greeting);
-
